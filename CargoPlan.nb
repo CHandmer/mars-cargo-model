@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1471074,      29077]
-NotebookOptionsPosition[   1459385,      28712]
-NotebookOutlinePosition[   1459725,      28727]
-CellTagsIndexPosition[   1459682,      28724]
+NotebookDataLength[   1471167,      29079]
+NotebookOptionsPosition[   1459478,      28714]
+NotebookOutlinePosition[   1459818,      28729]
+CellTagsIndexPosition[   1459775,      28726]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28616,10 +28616,11 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"Export", "[", 
   RowBox[{
-  "\"\</home/handmer/Documents/Mars/mars-cargo-model/GlobalDataTable.csv\>\"",
-    ",", "globaldatatable"}], "]"}]], "Input",
+   RowBox[{"path", "<>", "\"\<mars-cargo-model/GlobalDataTable.csv\>\""}], 
+   ",", "globaldatatable"}], "]"}]], "Input",
  CellChangeTimes->{{3.7149548855521603`*^9, 3.714954908022416*^9}, {
-   3.71495508433727*^9, 3.714955147123293*^9}, 3.714955361912483*^9}],
+   3.71495508433727*^9, 3.714955147123293*^9}, 3.714955361912483*^9, {
+   3.714957387481806*^9, 3.714957420677721*^9}}],
 
 Cell[BoxData["\<\"/home/handmer/Documents/Mars/mars-cargo-model/\
 GlobalDataTable.csv\"\>"], "Output",
@@ -28687,7 +28688,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"Export", "[", 
   RowBox[{
-  "\"\</home/handmer/Documents/Mars/mars-cargo-model/TypesTable.csv\>\"", ",", 
+   RowBox[{"path", "<>", "\"\<mars-cargo-model/TypesTable.csv\>\""}], ",", 
    RowBox[{"Join", "[", 
     RowBox[{
      RowBox[{"{", 
@@ -28701,7 +28702,8 @@ Cell[BoxData[
         RowBox[{"{", 
          RowBox[{"2", ",", "3", ",", "4", ",", "6"}], "}"}]}], "]"}], "]"}]}],
      "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.714955395765415*^9, 3.714955401487323*^9}}],
+ CellChangeTimes->{{3.714955395765415*^9, 3.714955401487323*^9}, {
+  3.714957413429223*^9, 3.7149574146239443`*^9}}],
 
 Cell[BoxData["\<\"/home/handmer/Documents/Mars/mars-cargo-model/TypesTable.\
 csv\"\>"], "Output",
@@ -29063,19 +29065,19 @@ Cell[1446365, 28459, 773, 14, 57, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[1447175, 28478, 141, 2, 32, "Input"],
-Cell[1447319, 28482, 8477, 128, 440, "Output"]
+Cell[1447319, 28482, 8477, 128, 426, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1455833, 28615, 314, 6, 34, "Input"],
-Cell[1456150, 28623, 213, 3, 32, "Output"]
+Cell[1455833, 28615, 360, 7, 34, "Input"],
+Cell[1456196, 28624, 213, 3, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1456400, 28631, 519, 15, 34, "Input"],
-Cell[1456922, 28648, 1596, 33, 315, "Output"]
+Cell[1456446, 28632, 519, 15, 34, "Input"],
+Cell[1456968, 28649, 1596, 33, 301, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1458555, 28686, 626, 17, 57, "Input"],
-Cell[1459184, 28705, 161, 2, 32, "Output"]
+Cell[1458601, 28687, 673, 18, 34, "Input"],
+Cell[1459277, 28707, 161, 2, 32, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
